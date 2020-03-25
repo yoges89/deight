@@ -1,0 +1,20 @@
+field.widget.settings.vtfield_widget:
+  type: mapping
+  label: 'Video Track Field Widget widget settings'
+  mapping:
+    size:
+      type: integer
+      label: 'Size'
+    placeholder:
+      type: textfield
+      label: 'Placeholder'
+field.widget.settings.video_track_widget_type:
+  type: mapping
+  label: 'Video track widget type widget settings'
+  mapping:
+    size:
+      type: integer
+      label: 'Size'
+    placeholder:
+      type: textfield
+      label: 'Placeholder'

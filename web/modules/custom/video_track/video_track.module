@@ -1,0 +1,39 @@
+<?php
+
+/**
+ * @file
+ * Contains video_track.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function video_track_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the video_track module.
+    case 'help.page.video_track':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Module gives ability to add track tag inside video tag.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function video_track_theme() {
+  return [
+    'video_track' => [
+      'variables' => [
+        'items' => NULL,
+        'player_attributes' => NULL,
+        'tracks' => NULL
+      ]
+    ],
+  ];
+}

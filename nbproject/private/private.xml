@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/dprojects/www/deight.yo/web/modules/custom/video_track/src/Plugin/Field/FieldFormatter/VideoTrackFormatter.php</file>
+            <file>file:/D:/dprojects/www/deight.yo/web/modules/custom/video_track/video_track.module</file>
+            <file>file:/D:/dprojects/www/deight.yo/web/modules/custom/video_track/src/Plugin/Field/FieldWidget/VideoTrackWidgetType.php</file>
+            <file>file:/D:/dprojects/www/deight.yo/web/modules/custom/video_track/templates/video-track.html.twig</file>
+            <file>file:/D:/dprojects/www/deight.yo/web/modules/custom/video_track/src/Plugin/Field/FieldType/VideoTrackFieldType.php</file>
+        </group>
+    </open-files>
+</project-private>

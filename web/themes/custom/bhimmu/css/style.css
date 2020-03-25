@@ -1,0 +1,105 @@
+/**
+ * @file
+ * CSS file for the them.
+ */
+
+/** Header top **/
+.header-top .language-switcher-language-url,
+.header-top .search-block {
+  padding: 19px 0 19px 0;
+}
+
+/** Home page promoted article **/
+.article.is-promoted {
+  margin-bottom: 25px;
+}
+.article.is-promoted .layout .layout__region--second .block-layout-builder {
+  margin-left: 15px;
+  text-align: justify;
+}
+
+.article.is-promoted .layout .layout__region--second .block-field-blocknodearticletitle {
+  font-size: 2.5rem;
+}
+
+.article.is-promoted .layout .layout__region--second .block-field-blocknodearticlebody {
+  margin-top: 15px;
+  font-size: 1.8rem;
+  color: #000;
+} 
+
+.article.is-promoted .layout .layout__region--second 
+.block-field-blocknodearticlefield-tags .field--name-field-tags {
+  display: inline;
+}
+
+.article.is-promoted .layout .layout__region--second 
+.block-field-blocknodearticlefield-tags .field--name-field-tags .field--item {
+  float: left;
+  padding: 5px;
+  border: 1px solid #bd1c2e;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.feed-icon {
+  visibility: hidden;
+}
+
+/** Navbar **/
+.navbar-default .navbar-text {
+  clear: both;
+  margin: 0;
+  padding: 0 0 15px 0;
+  font-size: 1rem;
+  text-align: center;
+  color: purple;
+}
+.navbar-default .navbar-brand {
+  height: 45px;
+  padding-bottom: 5px;
+  color: purple;
+}
+
+.navbar-default .navbar-brand:hover {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.navbar-default .navbar-brand:after {
+  content: "";
+  display: block;
+  width: 60%;
+  border-bottom: 1px solid purple;
+  padding-bottom: 1px;
+}
+
+.navbar-default .navbar-brand:hover::after {
+  border-bottom: 1px solid #000;
+}
+
+/** Breadcrumb **/
+.breadcrumb {
+  background-color: transparent;
+}
+
+/** Media Queries **/
+@media(max-width:767px){
+  .navbar-default .navbar-text {
+    text-align: left;
+    padding-bottom: 10px;
+    margin-left: 15px;
+  }
+  
+  .navbar-default .navbar-brand {
+    
+  }
+  .region-navigation {
+    float: left;
+    width: 50%;
+  }
+  
+  .article.is-promoted .layout .layout__region--second .block-layout-builder {
+  text-align: left;
+}
+}

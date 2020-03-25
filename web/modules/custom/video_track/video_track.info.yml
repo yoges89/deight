@@ -1,0 +1,7 @@
+name: 'Video Track'
+type: module
+description: 'Module gives ability to add track tag inside video tag.'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - videojs
